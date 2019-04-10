@@ -126,7 +126,7 @@ Throughput (examples/sec)
 |   | 2060  | 2070  | 2080  |  1080 Ti | 2080 Ti | TitanRTX | Quadro RTX 6000 | V100 | Quadro RTX 8000 |
 |---|---|---|---|---|---|---|---|---|---|
 | train_batch_size=1 | 7.13 | 8.68 | | | | 12.1127 | 13.48 | | | | 
-| train_batch_size=6 | OOM | OOM | | | | | | | 22.42 | 25.89 | 
+| train_batch_size=6 | OOM | OOM | | | | 22.42 | 25.89 | | |  | 
 | train_batch_size=12 | OOM | OOM | | | | OOM | 29.2432 | | | | 
 | train_batch_size=24 | OOM | OOM | | | | OOM | 30.46 | | | | 
 | train_batch_size=48 | OOM | OOM | | | | OOM | OOM | | | | 
