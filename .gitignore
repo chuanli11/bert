@@ -120,3 +120,5 @@ pretraining_output/*
 tf_examples.tfrecord
 uncased_L-12_H-768_A-12/*
 venv-bert/*
+dev-v1.1.json
+train-v1.1.json
