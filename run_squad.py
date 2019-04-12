@@ -1212,6 +1212,8 @@ def main(_):
     # tf.logging.info("  Num steps = %d", num_train_steps)
     # del train_examples
 
+    # CL: end of comment
+
     train_input_fn = input_fn_builder(
         input_file=filename,
         seq_length=FLAGS.max_seq_length,
