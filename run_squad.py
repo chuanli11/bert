@@ -1191,26 +1191,26 @@ def main(_):
 
     # CL: uncomment this to create tfrecords
 
-    # train_writer = FeatureWriter(
-    #     filename=filename,
-    #     is_training=True)
+    #train_writer = FeatureWriter(
+    #    filename=filename,
+    #    is_training=True)
 
-    # convert_examples_to_features(
-    #     examples=train_examples,
-    #     tokenizer=tokenizer,
-    #     max_seq_length=FLAGS.max_seq_length,
-    #     doc_stride=FLAGS.doc_stride,
-    #     max_query_length=FLAGS.max_query_length,
-    #     is_training=True,
-    #     output_fn=train_writer.process_feature)
-    # train_writer.close()
+    #convert_examples_to_features(
+    #    examples=train_examples,
+    #    tokenizer=tokenizer,
+    #    max_seq_length=FLAGS.max_seq_length,
+    #    doc_stride=FLAGS.doc_stride,
+    #    max_query_length=FLAGS.max_query_length,
+    #    is_training=True,
+    #    output_fn=train_writer.process_feature)
+    #train_writer.close()
 
-    # tf.logging.info("***** Running training *****")
-    # tf.logging.info("  Num orig examples = %d", len(train_examples))
-    # tf.logging.info("  Num split examples = %d", train_writer.num_features)
-    # tf.logging.info("  Batch size = %d", FLAGS.train_batch_size)
-    # tf.logging.info("  Num steps = %d", num_train_steps)
-    # del train_examples
+    #tf.logging.info("***** Running training *****")
+    #tf.logging.info("  Num orig examples = %d", len(train_examples))
+    #tf.logging.info("  Num split examples = %d", train_writer.num_features)
+    #tf.logging.info("  Batch size = %d", FLAGS.train_batch_size)
+    #tf.logging.info("  Num steps = %d", num_train_steps)
+    #del train_examples
 
     # CL: end of comment
 
